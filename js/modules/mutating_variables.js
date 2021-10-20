@@ -18,9 +18,9 @@ export const mutatingVariables = (() => {
     },
     restartValues() {
       const timeValue = 15;
-      const que_count = 0;
-      const que_numb = 1;
-      const userScore = 0;
+       que_count = 0;
+       que_numb = 1;
+       userScore = 0;
       const widthValue = 0;
       return [que_count, que_numb, userScore];
     },

@@ -7,6 +7,11 @@ export function DOMSelector(object, method, selector) {
       return object.querySelectorAll(selector);
       break;
     default:
-      console.log("failed");
+    { let text = "failed"
+      console.log(text);
+    return text
+    }
+
+      
   }
 }

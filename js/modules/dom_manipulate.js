@@ -31,10 +31,7 @@ export function DOMManipulate(element, action, value1 = "", value2 = "") {
         break;
       case "location":
         element.location.reload();
-      case "onclick":
-        element.onclick = () => {
-          value1;
-        };
+
       default:
         console.log("failed");
         break;
